@@ -1,0 +1,196 @@
+.gamecard{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    animation: transitionIn 6s;
+    margin-bottom: 15px;
+}
+
+.G{
+    width: 20vw;
+    height: 31.5vh;
+    background: url(../../Images/gamecardback1.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 0px;
+    border: rgb(0, 0, 0) solid;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+
+.genres{
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.title{
+    font-size: 11px;
+}
+
+.img{
+    height: 110px;
+    width: 200px;
+    
+}
+
+
+.buttondetails{
+    background: #eecb00;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 17px;
+    border: none;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    box-shadow: inset -3px -3px 0px 0px #E59400;
+}
+
+.buttondetails:hover, .buttondetails:focus{
+    background: #F2C409;
+    color: rgb(221, 221, 221);
+    box-shadow: inset -3px -3px 0px 0px #E59400;
+}
+
+.buttondetails:active {
+    box-shadow: inset 3px 3px 0px 0px #E59400;
+}
+
+.buttondetails:before, .buttondetails:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.buttondetails:before {
+    top: -3px;
+    left: 0;
+    border-top: 3px rgb(70, 70, 70) solid;
+    border-bottom: 3px rgb(71, 71, 71) solid;
+}
+
+.buttondetails:after {
+    left: -3px;
+    top: 0;
+    border-left: 3px rgb(71, 71, 71) solid;
+    border-right: 3px rgb(70, 70, 70) solid;
+}
+
+@media (max-width:720px){
+    .gamecard{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+        animation: transitionIn 6s;
+        margin-bottom: 20px;
+    }
+    
+    .G{
+        width: 60vw;
+        height: 37vh;
+        background: #050505;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+        margin-top: 0px;
+        border: rgb(233, 207, 42) double;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+    }
+    
+    
+    
+    .genres{
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .title{
+        font-size: 10px;
+    }
+    
+    .img{
+        height: 18vh ;
+        width: 45vw;
+        border: rgb(255, 230, 39) double;
+    }
+    
+    
+    .buttondetails{
+        background: #eecb00;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 17px;
+        border: none;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+    
+    .buttondetails:hover, .buttondetails:focus{
+        background: #F2C409;
+        color: rgb(221, 221, 221);
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+    
+    .buttondetails:active {
+        box-shadow: inset 3px 3px 0px 0px #E59400;
+    }
+    
+    .buttondetails:before, .buttondetails:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: content-box;
+    }
+    
+    .buttondetails:before {
+        top: -3px;
+        left: 0;
+        border-top: 3px rgb(70, 70, 70) solid;
+        border-bottom: 3px rgb(71, 71, 71) solid;
+    }
+    
+    .buttondetails:after {
+        left: -3px;
+        top: 0;
+        border-left: 3px rgb(71, 71, 71) solid;
+        border-right: 3px rgb(70, 70, 70) solid;
+    }
+}
+
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

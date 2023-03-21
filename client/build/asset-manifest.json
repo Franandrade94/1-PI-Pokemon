@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb279641.css",
+    "main.js": "/static/js/main.d2d5d4db.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Pressstart.mp4": "/static/media/Pressstart.17de4012a14d45e960e4.mp4",
+    "static/media/Backpoke2.png": "/static/media/Backpoke2.4fc49eabf46033d16388.png",
+    "static/media/NAV.wav": "/static/media/NAV.8056cf118a2258361dff.wav",
+    "static/media/BACK.wav": "/static/media/BACK.93e92b631eae9954d3e2.wav",
+    "static/media/Retro Gaming.ttf": "/static/media/Retro Gaming.c1a52a602585b2d6baf8.ttf",
+    "static/media/gamecardback1.png": "/static/media/gamecardback1.7625880e2b912f38b305.png",
+    "static/media/Backpoke3.png": "/static/media/Backpoke3.30fbb212f3f4a5aebc6c.png",
+    "static/media/pressstart.mp3": "/static/media/pressstart.abb967ae797792405fc2.mp3",
+    "index.html": "/index.html",
+    "main.bb279641.css.map": "/static/css/main.bb279641.css.map",
+    "main.d2d5d4db.js.map": "/static/js/main.d2d5d4db.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb279641.css",
+    "static/js/main.d2d5d4db.js"
+  ]
+}

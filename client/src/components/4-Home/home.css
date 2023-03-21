@@ -1,0 +1,74 @@
+.home-back{
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    border-left: rgb(0, 0, 0) solid;
+    border-bottom: black solid;
+    border-right: black solid; 
+    background: url(../../Images/Backpoke3.png);
+    background-size: cover;
+    margin-top: 0%;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    animation: transitionIn 6s;
+  }
+  
+ 
+  .home{
+    
+    display: grid;
+    justify-content: center;
+    height: 29.5em;
+    overflow: auto;
+    width: 100%;
+    grid-template-columns: repeat(3, 0fr);
+    scrollbar-width: none;
+  }
+  
+  .home::-webkit-scrollbar{
+      display: none;
+  }
+  
+  
+  .gamecard{
+    margin: 0px 10px 0px 0px;
+  }
+   
+  @media (max-width:720px){
+    
+    .home{
+      display: grid;
+      justify-content: center;
+      height: 17em;
+      overflow: auto;
+      width: 100%;
+      grid-template-columns: repeat(1, 0fr);
+      scrollbar-width: none;
+    }
+    
+    .home::-webkit-scrollbar{
+        display: none;
+    }
+  
+    .gamecard{
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  
+  .PaginationDiv{
+    margin-left: 74%;
+  }
+  
+  @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: translate(-1deg);
+    }
+  
+    to {
+        opacity: 1;
+        transform:translate(0);
+    }
+  }

@@ -1,0 +1,415 @@
+.Animation-form{
+    background: url(../../Images/Backpoke3.png);
+    background-size: cover;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    margin-bottom: 0%;
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: transitionIn 6s;
+}
+
+label{
+    font-size: 12px;
+}
+
+
+.createPokemon{
+    width: 80vw;
+    height: 78vh;
+    background-color: white;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: double black;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.createPokemon label {
+    display: flex;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+.type{
+    margin-top: -0.3%;
+
+}
+
+.CheckBox{
+    margin-top: -15%;
+    margin-left: 10%;
+}
+
+
+.AllTypes{
+    background-color: rgb(255, 255, 255);
+    border: double black;
+    display: grid;
+      justify-content: center;
+      height: 18vh;
+      width: 70vw;
+      padding: 5px;
+      padding-top: 14px;
+      margin-left: 8%;
+      margin-top: -1%;
+      margin-bottom: 0.5%;
+      grid-template-columns: repeat(6, 1fr);
+      scrollbar-width: none;
+      font-size: 10px;
+      overflow: auto;
+}
+
+
+.close{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+label input[type="file"] {
+    opacity: 1;
+    width: 30vw;
+}
+
+
+
+input::file-selector-button{
+    font-weight: bolder;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 0px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #a7a7a7;
+}
+
+input::file-selector-button:hover, input::file-selector-button:focus{
+    background: #e3e3e3;
+    color: rgb(33, 33, 33);
+    box-shadow: inset -3px -3px 0px 0px #5d5d5d;
+}
+
+.ImageInput{
+    
+    margin-left: 1%;
+    text-decoration: none;
+
+}
+
+.Pokemon-image{
+    width: 2.5vw;
+    height:5vh;
+    margin-top:-0.5%;
+    margin-left: 1%;
+    
+    
+    
+}
+
+.Pokemon-image.active{
+    width: 0vw;
+    height:0vh;
+    margin-top:-1.5%;
+    margin-left: 1%;
+    text-decoration: none;
+    border: none;
+}
+.Pokemon-image::after{
+    width: 4vw;
+    height:8vh;
+    margin-top:-1.5%;
+    margin-left: 1%;
+    text-decoration: none;
+    
+}
+
+.NameLabel{
+  margin-top: -0.5%;  
+}
+
+.Name{
+    margin-left: 50px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.HeightLabel{
+    margin-top: 1%;
+}
+
+.Height{
+    margin-left: 50px;
+    margin-top: -0px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.Weight{
+    margin-left: 50px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.HP{
+    margin-left: 80px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.Attack{
+    margin-left: 49px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.Defense{
+    margin-left: 38px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+.Speed{
+    margin-left: 54px;
+    margin-bottom: -10px;
+    border: none;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    border: double black;
+}
+
+input [type="number"] {
+    outline: none;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+        appearance: textfield;
+}
+
+input [type="number"]::-webkit-outer-spin-button, input [type= "number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    
+}
+
+.button-create{
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: -2px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #a9a9a9;
+}
+
+.button-create:hover, .button-create:focus{
+    background: #d3d3d3;
+    color: rgb(19, 19, 19);
+    box-shadow: inset -3px -3px 0px 0px #707070;
+}
+
+.button-create:active {
+    box-shadow: inset 3px 3px 0px 0px #E59400;
+}
+
+.button-create:before, .button-create:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.button-create:before {
+    top: -3px;
+    left: 0;
+    border-top: 3px rgb(70, 70, 70) solid;
+    border-bottom: 3px rgb(71, 71, 71) solid;
+}
+
+.button-create:after {
+    left: -3px;
+    top: 0;
+    border-left: 3px rgb(71, 71, 71) solid;
+    border-right: 3px rgb(70, 70, 70) solid;
+}
+@media (max-width:720px){
+    .create-game{
+        width: 100vw;
+        height: 100vh;
+        background: #050505;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 40px;
+        border: rgb(233, 207, 42) double;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+    }
+    
+    .create-game label {
+        display: flex;
+        margin-left: 20px;
+        justify-content: left;
+    }
+    
+    .Animation-form{
+        animation: transitionIn 6s;
+    }
+    
+    .close{
+        display: flex;
+        justify-content: right;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        margin-right: 7px;
+    }
+    
+    .upload{
+        height: 4vh;
+        width: 10vw;
+        margin-left: -20%;
+        margin-top: 20%;
+        
+    }
+
+    .Pokemon-image{
+        text-decoration: none;
+        
+
+    }
+
+    .name{
+        margin-left: 17.5%;
+        margin-bottom: 0;
+        margin-top: -5px;
+        border: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        box-shadow: inset -3px -3px 0px 0px rgb(167, 167, 167);
+        outline: none;
+    }
+    
+    .description{
+        margin-left: 5%;
+        margin-bottom: 5px;
+        border: none;
+        padding-left: 0px;
+        padding-right: -0px;
+        padding-bottom: 50px;
+        box-shadow: inset -3px -3px 0px 0px rgb(167, 167, 167);
+        outline: none;
+    }
+    .types{
+        margin-left: -90%;
+    }
+
+    .typelabel{
+        margin-left: 15%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 0fr);
+        width: 200px;
+    }
+
+    .realase{
+        margin-left: 12%;
+        border: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top:2px;
+        padding-bottom: 2px;
+        box-shadow: inset -3px -3px 0px 0px rgb(167, 167, 167);
+        outline: none;
+    }
+    
+    .rating{
+        margin-left: 15%;
+        border: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        box-shadow: inset -3px -3px 0px 0px rgb(167, 167, 167);
+        outline: none;
+    }
+
+    .button-create{
+        background: #eecb00;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 20px;
+        border: none;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

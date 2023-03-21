@@ -1,0 +1,120 @@
+.SearchBar{
+    background-color: rgb(255, 255, 255);
+    border-left: solid black;
+    border-right: solid black;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    animation: transitionIn 6s;
+}
+
+.Searchtext{
+    
+    width: 10vw;
+    outline: none;
+    color: rgba(255, 255, 255, 0.84);
+    background-color:rgba(124, 124, 124, 0.68) ;
+    border: none;
+    margin-right: 3px;
+}
+
+.icon-buscar{ 
+    margin-right: 2%;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    padding: .5px 2px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #a9a9a9;
+}
+
+.icon-buscar:hover{
+    
+    color:rgb(44, 44, 44);
+    background-color: rgba(106, 186, 170, 0.479);
+}
+
+
+.icon-buscar:hover, .link:focus{
+    background: #cecece;
+    box-shadow: inset -3px -3px 0px 0px #8d8d8d;
+}
+
+.icon-buscar:active {
+    box-shadow: inset 3px 3px 0px 0px #E59400;
+}
+
+.icon-buscar:before, .link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.icon-buscar:before {
+    top: -3px;
+    left: 0;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
+
+.icon-buscar:after {
+    left: -3px;
+    top: 0;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+}
+
+@media (max-width:720px){
+    .SearchBar{
+        display: flex;
+        justify-content: right;
+        margin-top: 1%;
+        margin-right: 7%;
+        padding-bottom: -70%;
+        animation: transitionIn 6s;
+    }
+    
+    .Searchtext{
+        width: 10vw;
+        outline: none;
+        color: rgba(255, 255, 255, 0.84);
+        background-color:rgba(124, 124, 124, 0.68) ;
+        border: none;
+        margin-right: 3px;
+    }
+    
+    .icon-buscar{ 
+        background: #F7D51D;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 13px;
+        padding: .5px 2px;
+        border: none;
+        text-decoration: none;
+        color:white;
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotate(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}

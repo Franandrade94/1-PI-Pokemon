@@ -1,0 +1,303 @@
+.detailcard{
+    background: url(../../Images/Backpoke3.png);
+    background-size: cover;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 3%;
+    animation: transitionIn 2s;
+}
+
+.Margin-Detailcard-back{
+    padding-top: 3%;
+    margin-left: 10.6%;
+    margin-right: 10.6%;
+    
+}
+
+.Pokedetail{
+    height: 70vh;
+    width: 70vw;
+    position: static;
+    background: url(../../Images/gamecardback1.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    border: rgb(0, 0, 0) solid;
+    color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-bottom: -30px;   
+}
+
+.DivPokeIMG{
+z-index: 10;
+}
+
+.PokemonImg{
+    position: absolute;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: left;
+    margin-left: 2.5%;
+    margin-top: 6.5%;
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 5;
+    
+}
+
+.ImgBackType{
+    position: absolute;
+    z-index: 0;
+    margin-top: 3.9%;
+    margin-left: 5.7%;
+    
+    
+    
+}
+
+.BackTypeImg{
+    
+    border-radius: 50%;
+    height: 53vh;
+    width: 25.5vw;
+    z-index: 1;
+    border: solid black;
+}
+
+
+.pokemon-Info{
+    height: 50vh;
+    width: 30vw;
+    padding:10px 10px;
+    margin-left: 50%;
+    margin-top: 5.5%;
+    color: black;
+    background-color: white;
+    border: double black;
+}
+
+.DetailID{
+    margin-left: -80%;
+}
+
+.DetailName{
+    
+    margin-top: -8.5%;
+}
+
+.DetailType{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+
+.DetailTypeImg{
+    height: 4vh;
+    width: 5vw;
+}
+
+.DetailHeight{
+    margin-left: -30%;
+    padding-bottom: 0%;
+    
+}
+
+.DetailWeight{
+    margin-left: 30%;
+    margin-top: -8.5%;
+    padding-bottom: 1%;
+}
+
+.HP-Bar{
+    width: 25vw;
+    height: 1vh;
+    margin-top: -1%;
+}
+
+.DetailHP{
+ margin-left: -65% ;
+ margin-top: 2%;
+}
+
+.DetailAttack{
+    margin-left: -55% ;
+    margin-top: 10%;
+}
+
+.DetailDefense{
+    margin-left: 5%;
+    margin-top: -9%;
+}
+
+.DetailSpeed{
+    margin-left: 65% ;
+    margin-top: -9%
+}
+
+.buttonGameDetails{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -34.1%;
+    background: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #b3b3b3;
+}
+
+.buttonGameDetails:hover, .buttonGameDetails:focus{
+    background: #c3c3c3;
+    color: rgb(49, 49, 49);
+    box-shadow: inset -3px -3px 0px 0px #8a8a8a;
+}
+
+.buttonGameDetails:active {
+    box-shadow: inset 3px 3px 0px 0px #d2d2d2;
+}
+
+.buttonGameDetails:before, .buttonGameDetails:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.buttonGameDetails:before {
+    top: -3px;
+    left: 0;
+    border-top: 3px rgb(70, 70, 70) solid;
+    border-bottom: 3px rgb(71, 71, 71) solid;
+}
+
+.buttonGameDetails:after {
+    left: -3px;
+    top: 0;
+    border-left: 3px rgb(71, 71, 71) solid;
+    border-right: 3px rgb(70, 70, 70) solid;
+}
+
+@media (max-width:720px){
+    
+    .Gamedetail{
+        height: 63vh;
+        position: static;
+        background: #000000;
+        border: rgb(233, 207, 42) double;
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding-bottom: -30px;   
+    }
+    
+    .DetailName{
+        font-size: 12px;
+        margin-top: 15px;
+       display: flex;
+       justify-content: center; 
+       color: yellow;    
+    }
+    
+    
+
+    .detailRel{
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        margin-top: -10px;
+        margin-left:0px;
+    }
+    
+    .detailgenres{
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        margin-top: -5px; 
+        margin-left: 0px;  
+    }
+    
+    .StarRating{
+        height: 1.5vh;
+        
+    }
+    
+    .detailRating{
+        display: flex;
+        justify-content: center;
+        font-size: 9px;    
+        margin-top: -5px;
+    }
+    
+    
+    .gameImg{
+        height: 18vh;
+        width: 30vw;
+        display: inline;
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: -0px;
+        border: rgb(233, 207, 42) double;
+        
+    }
+    
+    .descriptionover{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        margin-top: 8px;
+        overflow: auto;
+        scrollbar-width: none;
+        -ms-overflow-style:none;
+    }
+
+    .Detaildescription{
+        height: 25.5vh;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        overflow:auto;
+        scrollbar-width: none;
+        -ms-overflow-style:none;
+        font-size: 9px;
+        text-align: justify;
+        line-height: 20px;
+        margin-left: 20px;
+        margin-right: 20px
+        
+    }
+    
+    .buttonGameDetails{
+        position: absolute;
+        margin-top: -1.5%;
+        margin-left: -32.5%;
+        background: #eecb00;
+        font-size: 10px;
+        padding: 5px;
+        border: none;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: translate(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform:translate(0);
+    }
+}

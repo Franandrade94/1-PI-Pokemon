@@ -1,0 +1,122 @@
+.nav{
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    border:none;
+    border-left: rgb(0, 0, 0) solid;
+    border-top: black solid;
+    border-right: black solid;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 2.5%;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    animation: transitionIn 6s;
+    z-index: 2;
+}
+
+.link { 
+    
+    background: white;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #adadad;
+}
+
+.link:hover{
+    
+    color:rgb(0, 0, 0);
+    background-color: rgba(106, 186, 170, 0.479);
+}
+
+
+
+
+.link-home { 
+    
+    background: white;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: inset -3px -3px 0px 0px #adadad;
+}
+
+.link-home:hover{
+    
+    color:rgb(0, 0, 0);
+    background-color: rgba(106, 186, 170, 0.479);
+}
+
+
+
+@media (max-width:720px){
+    .nav{
+        background-color: rgb(0, 0, 0);
+        border-style:solid;
+        border: rgb(219, 185, 60)  double;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 15%;
+        margin-left: 14.6%;
+        margin-right: 14.6%;
+        animation: transitionIn 6s;
+        z-index: 2;
+    }
+    
+    .link { 
+        
+        background: #F7D51D;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 2%;
+        border: none;
+        text-decoration: none;
+        color:white;
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+    
+    .link-home { 
+    
+        background: #F7D51D;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-left: 0px;
+        border: none;
+        text-decoration: none;
+        color:white;
+        box-shadow: inset -3px -3px 0px 0px #E59400;
+    }
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: translate(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

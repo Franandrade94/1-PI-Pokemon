@@ -1,0 +1,107 @@
+.Landing{
+    
+    background: url(../../Images/Backpoke2.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.tv-video{
+    width: 100vw;
+    height: 16%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 43%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.land-button:hover{
+    background-color: rgb(17, 15, 149);
+}
+
+@media (min-width: 4px){
+    .land-button{
+        position: absolute;
+        background-color: rgb(17, 15, 181);
+        padding: 4.6px 20.5px ;
+        top: 72.1%;
+        left: 45.5%;
+        border: none;
+        border-radius: 20%;
+        z-index: 5;
+    }
+    
+    .start{
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 9px;
+        top: 68.5%;
+        left: 46.2%;
+        z-index: 5;
+    }
+
+}
+
+@media (min-width: 600px){
+    .land-button{
+        position: absolute;
+        background-color: rgb(17, 15, 181);
+        padding: 4.6px 21.5px ;
+        top: 74.1%;
+        left: 48.5%;
+        border: none;
+        border-radius: 20%;
+        z-index: 5;
+    }
+
+    .start{
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 9px;
+        top: 70.5%;
+        left: 48.7%;
+        z-index: 5;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px){
+    .land-button{
+        position: absolute;
+        background-color: rgb(17, 15, 181);
+        padding: 4.6px 22px ;
+        top: 75.1%;
+        left: 48.47%;
+        border: none;
+        border-radius: 20%;
+        z-index: 5;
+    }
+
+    .start{
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 9px;
+        top: 70.5%;
+        left: 48.7%;
+        z-index: 5;
+    }
+    
+}    
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform:rotateX(1deg);
+    }
+
+    to {
+        opacity: 0;
+        transform:rotateX(0);
+    }
+}
